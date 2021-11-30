@@ -4,222 +4,289 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS assesment 2</title>
+    <title>Document</title>
     <style>
-        *{
-            /* margin: 0; */
-            /* padding: 0; */
-        }
-        .flex{ display: inline-flex;
-            /* text-align: center; */
-            /* margin: 10px;
-            padding: 20px; */
-        }
-        .dhaba{   
-            border: 2px solid red;
-            background-color: black;
-            color: white;
-            font-style: italic ;
-            font-size: larger;
-            width: 200px;
-            height: auto;
-            padding: 15px; 
-            border-radius: 15px;
-
-        }
-        .menu {  
-            border: 2px solid red ;
-            background-color: black;
-            color: white;
-            font-style: italic;
-            width: 250px;
-            height: auto;
-            padding:15px ;
-            font-size: larger;
-            border-radius: 15px;
-            text-align: left;
-         
-        }
-        .emil{ border: 2px solid red ;
-            background-color: black;
-            color: white;
-            font-style: italic;
-            width: 250px;
-            height: auto;
-            padding:15px ;
-            font-size: larger;
-            border-radius: 15px;
-      }
-      .circle
-      { border: 6px solid gray;
-        margin: 12px;
-        background-color: green;
-        border-radius: 50%;
-        width: 350px;
-        height: 350px;
-        text-align: center;
-        font-size: 20px;
-    padding: 5px;}
-    .flex1 {
-        text-align: center;
-
-    }
-    h1 {
-            color: red;
-        }
-
-        .form { text-align: center;
-            background-color: whitesmoke;
-            color: red;
-            border-style: dashed;
-            width: 350px;
-            height: auto;
-            margin: 70px 5px 2px 500px;
-        position: relative;
-    left: 800px; bottom: 400px;     }
-
-        
-            .box {
-            border: 2px solid green;
-            background-color: aqua;
-            margin: 20px ,200px,20px,200px;
-            padding: auto;
-            display: inline-block;
-            width: 25%;
-            box-sizing: border-box;
-            border-radius: 30px;
-            color: indigo;
-             font-size: larger;
-             text-align: center;
-        }
-
+    .background-image { background-image:https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png;
+  /* border-style: inset; */
+  background-size: 100%;
+}
+.border-style {
+  margin: 0%;
+  border: 5px solid rgb(0, 255, 0);
+  width: 98.5%;
+  height: 1900px;
+}
+.first-container {
+  /* border: 5px solid black; */
+  height: 200px;
+  display: flex;
+  font-size: 30px;
+  font-style: italic;
+  /* justify-content: center; */
+}
+.container-item {
+  border: 7px solid rgb(207, 11, 11);
+  margin: 20px;
+  /* padding: 10px; */
+  border-radius: 45px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.first{
+  padding: 10px 10px 30px;
+  height: 80px;
+  width: 700px;
+  text-align: center;
+}
+.second {
+  margin-top: 29px;
+  margin-left: -150px;
+  /* margin-right: 100; */
+  text-align: center;
+  padding: 20px 20px 5px 200px;
+  height: 25px;
+  width: 400px;
+  font-size: 20px;
+}
+.three{
+  /* margin-left: px; */
+  line-height: 50px;
+  /* margin-left: 150px; */
+  margin-right: 5px;
+  padding: 5px 60px;
+  font-size: 20px;
+  width: 350px;
+  text-align: center;
+  /* padding: ; */
+}
+.second-container {
+  /* border: 5px solid black; */
+  width: 99.3%;
+  display: flex;
+  height: 8\600px;
+}
+.circle {
+  text-align: center;
+  margin-top: 300px;
+  margin-left: 50px;
+  width: 40%;
+  /* height: 700px; */
+  /* border: 5px solid black; */
+  /* padding-top: 100px; */
+  /* padding: 100px; */
+}
+#text {
+  font-weight: bolder;
+  padding: 70px 0px;
+  background-color: grey;
+  border: 5px solid green;
+  border-radius: 50%;
+  width: 350px;
+  height: 200px;
+}
+.register-here {
+  background-color: white;
+  border: 10px dashed red;
+  margin-left: 50px;
+  width: 500px;
+  height: 700px;
+}
+#form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: red;
+  font-weight: bold;
+}
+label {
+  color: red;
+  font-size: 20px;
+}
+input {
+  text-align: center;
+}
+.menu {
+  border-bottom: 1px outset grey;
+  height: 150px;
+  text-align: center;
+}
+.menu-text {
+  border: 10px solid red;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  width: 600px;
+  /* text-align: center; */
+  font-size: 50px;
+  /* padding: 0px 0px; */
+  margin: 30px 350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.items {
+  padding: 30px;
+  background-color: cyan;
+  border: 2px solid green;
+  width: 300px;
+  font-weight: bolder;
+  color: rgb(82, 8, 151);
+  margin: 30px 30px 0px 30px;
+  border-radius: 20px;
+  height: 180px;
+}
+.item-title {
+  font-size: 40px;
+}
+.menu-hr {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+.last-item {
+  height: 230px;
+}
 
     </style>
 </head>
-<body>
-    <div class="flex">
-    <div class="dhaba">Welcome to dhaba  <br>
-         we get super quality here</div> <br>
-   <div class="menu">Home Menu review contact us</div> <br>
-   <div class="emil"> Email: sp4521@gmail. <br>
-       If you find any complainbr <br>
-       Contact on-705737069 </div>
-           
-       </div>
-  </div>
-  <div class="flex1"> 
-      <div class="circle"> <br> <br> <br> <br> Exting offer <hr> <br>**GET OUR SPECIAL THALI FOR 
-        ONLY RS-100 ONLY FOR MONDAY* <hr> <br>     PLZ RATE US OUT OF 5 <hr> </div>
-      
-  </div>
-  <div class="form">
-    <FORM>
-        <h1>PLEASE REGISTER HERE</h1>
-        <hr>
-        <label for="First name:">First name: </label> <br>
-        <input type="First name:" name="name" id="First name:" value="enter your first name"><br>
-        <label for="Last name:"> Last nmae:</label> <br>
-        <input type="last name" name=" name" id="Last name:" value="enter your last name"> <br>
-        <label for="Your age"> Your age</label><br>
-        <input type="Your age" name="age" id="Your age" value="enter your age"> <br>
-        <label for="Email"> Email</label><br>
-        <input type="Email" name="Email" id="Email" value="my email"><br>
-        <label for="Date">Date of birth</label><br>
-        <input type="Date of birth" name="Date of birth " id="Date"><br>
-        <label for="checkbox">Are you more than one person? </label> <br>
-        <input type="checkbox" name=" check" id=" checkbox"> <br>
-        <label for="checkbox">Do you have cought oe cold? </label> <br>
-        <input type="checkbox" name=" check" id=" checkbox"> <br>
-        <label for="submit"> click here</label> <br>
-        <input type="submit" name=" submit" id="submit" value="submit here"> <br>
-        <label for="Reset"> reset</label> <br>
-        <input type="reset" name="reset" id="Reset" value="Reset"> <br>
-        </form>
-  </div>
-  <h2 class="p"><i>MENU</i></h2>
-  <div class="container">
-
-    <div class="box">
-        <h2><b> Starters</b> </h2>
-        <hr>
-        <UL>
-            <li> paneer tikka </li>
-            <li> tikki</li>
-            <li> chole bhature</li>
-            <li> pomato soup </li>
-            <li> panerr masala</li>
-            <li> veg raita </li>
-            <li> kaju kari</li>
-        </UL>
-    </div>
-    <div class="box">
-        <h2><b>South Indian</b></h2>
-        <hr>
-        <UL>
-            <li> masala dosa </li>
-            <li> utapapa</li>
-            <li> idli</li>
-            <li> pomato soup </li>
-            <li> panerr masala</li>
-            <li> dosa </li>
-            <li> kaju kari</li>
-        </UL>
-    </div>
-    <div class="box">
-        <h2><b>Indian kitchen</b></h2>
-        <hr>
-        <UL>
-            <li> Shahi paneer </li>
-            <li> kadhi khichdi</li>
-            <li> alo paratha</li>
-            <li> dal bati </li>
-            <li> panerr masala</li>
-            <li> khichdi</li>
-            <li> kaju</li>
-        </UL>
-    </div>
-    <div class="box">
-        <h2><b>Beverages and Other</b></h2>
-        <hr>
-        <UL>
-            <li> Cold coffe</li>
-            <li> coffee</li>
-            <li> Cake</li>
-            <li> cold drink</li>
-            <li> mineral water</li>
-            <li> water</li>
-            <li> chai</li>
-        </UL>
-    </div>
-    <div class="box">
-        <h2><b>Rice & Salad</b></h2>
-        <hr>
-        <UL>
-            <li> plain rice </li>
-            <li> jira rice</li>
-            <li> masala rice</li>
-            <li> dal rice </li>
-            <li> soya rice</li>
-            <li> khichdi</li>
-            <li> salad</li>
-        </UL>
-    </div>
-    <div class="box">
-        <h2><b>tandoori bread</b></h2>
-        <hr>
-        <UL>
-            <li> buttrt roti</li>
-            <li> missi roti</li>
-            <li> onion parataha</li>
-            <li> dal bati </li>
-            <li> butter nan</li>
-            <li> stuff paratah</li>
-            <li> kaju</li>
-        </UL>
-    </div>
-</div>
-
-
-    
+<body class="background-image  border-style ">
+    <div class="first-container">
+        <div class="container-item first">
+          Welcome to Dhaba PrepBytes <br>
+          you get the quality food
+        </div>
+        <div class="container-item second">Home Menu review contact us</div>
+        <div class="container-item third">
+          Email: Store@gmail.com  <br>
+           If you find any complain <br >
+          Contact on- 94566***** <br>
+        </div>
+      </div>
+      <div class="second-container">
+        <div class="circle">
+          <p id="text">
+            <br>
+            <u >EXCITING OFFER <br><br><br>
+              **GET OUR SPECIAL THALI FOR <br>
+              ONLY ₹100 FOR MONDAY ONLY <br>
+              PLZ RATE US OUT OF 5</u>
+          </p>
+        </div>
+        <div class="register-here">
+          <p id="form-title">PLEASE REGISTER HERE</p>
+          <hr style="border-top: 1px solid blue; margin-left: 5px;  margin-right: 5px; "  /> <br>
+          <div>
+            <form action="" style="text-align: center"> <br>
+              <label for="fname">First Name:</label><br />
+              <input   type="text"  name="fname"  placeholder="enter your first name" id="fname"/> <br>
+              <label for="lname">Last Name:</label><br />
+              <input  type="text"  name="lname"  placeholder="enter your last name" id="lname" /> <br>
+              <label for="age">Your age:</label><br />
+              <input type="number"   name="age"   placeholder="enter your age here"  id="age" /> <br>
+              <label for="email">Email:</label> <br>
+              <input type="email" name="email" placeholder="myEmail" id="email" /> <br>
+              <label for="dob">Date of birth:</label> <br>
+              <input type="date" name="dob" id="dob" /> <br>
+              <label for="person">Are you more than one person?</label> <br>
+              <input type="checkbox" name="person" id="person" /> <br>
+              <label for="cold">Do you have cough or cold?</label> <br>
+              <input type="checkbox" name="cold" id="cold" /> <br>
+              <label for="click">click here</label> <br>
+              <input type="button" name="click" value="submit here" /> <br>
+              <label for="reset">Reset</label> <br>
+              <input type="button" name="reset" value="Reset" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <p class="menu-text">MENU</p>
+      </div>
+      <div class="menu-items">
+        <div class="items">
+          <span class="item-title">Starters</span> <br>
+          <hr class="menu-hr" />
+          <ul>
+            <li>Paneer Tikka</li>
+            <li>Tomato Soup</li>
+            <li>Afgani Chaap</li>
+            <li>Veg Raita</li>
+            <li>Gol gappa</li>
+            <li>Tikki</li>
+            <li>Fried Rice</li>
+          </ul>
+        </div>
+        <div class="items">
+          <span class="item-title">South Indian</span> <br>
+          <hr class="menu-hr" />
+          <ul>
+            <li>Masala Dosa</li>
+            <li>Idli Sambhar</li>
+            <li>Mix Veg. Uttapam</li>
+            <li>Onion Dosa</li>
+            <li>Vada Sambhar</li>
+            <li>Paper Plain Dosa</li>
+            <li>Tomato Uttapam</li>
+          </ul>
+        </div>
+        <div class="items">
+          <span class="item-title">Indian Kitchen</span> <br>
+          <hr class="menu-hr" />
+          <ul>
+            <li>Shahi Paneer</li>
+            <li>Kadhai Paneer</li>
+            <li>Aloo Ghobi</li>
+            <li>Dal Makhni</li>
+            <li>Poori Sabji</li>
+            <li>Malai Kofta</li>
+            <li>S1tuff Capsicum</li>
+          </ul>
+        </div>
+        <div class="items">
+          <span class="item-title">Rice & Salad</span> <br>
+          <hr class="menu-hr" />
+          <ul>
+            <li>Plain rice</li>
+            <li>Jeera rice</li>
+            <li>Fried rice</li>
+            <li>Veg. Pulao</li>
+            <li>Veg. Biryani</li>
+            <li>Cheese Fried rice</li>
+            <li>Masala Salad</li>
+          </ul>
+        </div>
+        <div class="items">
+          <span class="item-title">Tandoori Bread</span> <br>
+          <hr class="menu-hr" />
+          <ul>
+            <li>Butter roti</li>
+            <li>Missi roti</li>
+            <li>Onion Parantha</li>
+            <li>Lacha Parantha</li>
+            <li>Butter Naan</li>
+            <li>Paneer Parantha</li>
+            <li>Stuff parantha</li>
+          </ul>
+        </div>
+        <div class="items last-item">
+          <span class="item-title">Beverages and Other</span> <br>
+          <hr class="menu-hr" />
+          <ul>
+            <li>Cold Coffee</li>
+            <li>Colddrinks</li>
+            <li>Badam Milk</li>
+            <li>Mineral Water</li>
+            <li>Ice cream</li>
+            <li>Cake</li>
+            <li>Gajar Halwa</li>
+          </ul>
+        </div>
+      </div>
 </body>
 </html>
